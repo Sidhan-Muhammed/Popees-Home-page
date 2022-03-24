@@ -13,6 +13,9 @@
     <!-- Google fonts link-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800;900&family=Roboto:wght@900&display=swap" rel="stylesheet">
 
+    <!-- Google font link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <link rel="stylesheet" href="./Patner Home page .css">
 	<title>Patner | Home Page</title>
 </head>
@@ -22,31 +25,80 @@
     <div id="background-img">
 
         <!-- Navigation bar-->
-
-                    <nav class="navbar navbar-expand-md py-2 container">
+                    <nav class="navbar navbar-expand-md navbar-light py-4 container">
                       <a href="#" class="navbar-brand mr-5">
                         <img class="navbar-brand-logo" src="./icons/Path 86915@2x.png">
                       </a>
-                      <button class="navbar-toggler" data-toggle="collapse" data-target="#navigation">
-                        <span><i class="fa fa-caret-down"></i></span>
-                      </button>
+                      <button class="btn navbar-toggler" data-toggle="collapse" data-target="#navigation">
+                        <span><i class="navbar-toggler-icon"></i></span>
+                    </button>
 
                       <div class="navbar-collapse collapse" id="navigation">
                         <ul class="navbar-nav ml-auto">
-                          <li class="nav-item mx-2"><a href="./E seller Help page.html" class="nav-link">Benefits</a></li>
-                          <li class="nav-item mx-2"><a href="./E seller Be an agent.html" class="nav-link">About us</a></li>
-                          <li class="nav-item mx-2"><a href="./E Seller Signin page.html" class="nav-link">Testimonials</a></li>
-                          <li class="nav-item mx-2"><a href="./E Seller Signin page.html" class="nav-link">Values</a></li>
+                          <li class="nav-item mx-2"><a href="#" class="nav-link">Benefits</a></li>
+                          <li class="nav-item mx-2"><a href="#" class="nav-link">About us</a></li>
+                          <li class="nav-item mx-2"><a href="#" class="nav-link">Testimonials</a></li>
+                          <li class="nav-item mx-2"><a href="#" class="nav-link">Values</a></li>
                           <button class="mx-2 btn-in-nav">Visit Website</button>
                         </ul>
-                     </div>
                     </nav>
 
 
-        <div>
-        <img src="./Images/Union edited.png" class="union-image w-100 h-100">
-        <img src="./Images/Group 63634@2x.png" class="handshake-img">
+        <div class="div-for-form">
+        <img src="./Images/Union edited.png" class="w-100 mt-3">
+
+        <!-- Form -->
+        <form id="form">
+            <h3 class="heading-in-form mb-3">Become our franchise patner</h3>
+            <p class="content">If you are interested in cooperating with us, just let us know through from below</p>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" placeholder="FIRST NAME" class="form-control my-3">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" placeholder="LAST NAME" class="form-control my-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="email" placeholder="EMAIL" class="form-control my-3">
+                </div>
+                <div class="col-md-6">
+                    <input type="tel" placeholder="MOBILE" class="form-control my-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" placeholder="STATE" class="form-control my-3">
+                </div>
+                <div class="col-md-6">
+                    <input type="email" placeholder="OCCUPATION" class="form-control my-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" placeholder="PROPOSED LOCATION OF STORE" class="form-control my-3">
+                </div>
+                <div class="col-md-6">
+                    <input type="email" placeholder="FRONTAGE" class="form-control my-3">
+                </div>
+            </div>
+
+            <div class="my-3">
+              <p>
+                <span class="mr-1"><img src="./icons/Rectangle 17249@2x.png" class="tick"></span>
+                <span class="agreement">Read the information. I concent to the processing of personal date</span>
+              </p>
+            </div>
+
+            <button class="btn-in-form w-100 my-3">Submit</button>
+
+        </form>
+
         </div>
+
     </div>
+
 </body>
 </html>
