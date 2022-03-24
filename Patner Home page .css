@@ -98,10 +98,10 @@ font-size: 11px;
 .btn-in-form{
     color: white;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     background-color: #E62658;
     border: 1px solid #E62658;
-    padding: 10px;
+    padding: 1rem;
     border-radius: 2rem;
 }
 .btn-in-form:hover{
