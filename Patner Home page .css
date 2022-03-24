@@ -175,6 +175,26 @@ overflow-x: auto;
     width: 40px;
     height: 40px;
 }
+.content-in-section5{
+    font-size: 12px;
+}
+.img-in-section5{
+    width: 450px;
+    height: 450px;
+}
+footer{
+    background-color: #E62658;
+    padding: 5vw;
+    margin: 10vw 0 0 0;
+}
+.footer-link{
+    color: rgb(233, 229, 229);
+
+}
+.footer-link:hover{
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
 
 
 
