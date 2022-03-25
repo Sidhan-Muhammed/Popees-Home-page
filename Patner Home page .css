@@ -203,14 +203,15 @@ cursor: pointer;
 }
 footer{
     background-color: #E62658;
-    padding: 5vw;
     margin: 10vw 0 0 0;
 }
-.footer-parent{
+.footer-parent1{
     display: flex;
+    margin: 2vw;
+    text-align: center;
 }
 @media (max-width:768px){
-    .footer-parent{
+    .footer-parent1{
         display: block;
     }
 }
@@ -227,6 +228,16 @@ text-decoration: none;
     width: 80px;
     height: 50px;
 }
+.footer-parent2{
+    color: white;
+}
+.media-container{
+    display: flex;
+}
+.fa{
+    color: white;
+}
+
 
 
 
